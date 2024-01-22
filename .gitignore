@@ -1,0 +1,6 @@
+.idea/
+outbox/
+snapshots/py/__pycache__/
+snapshots/captures/
+snapshot.py
+snapshots/

@@ -1,0 +1,38 @@
+{
+    "huego": {
+        "num_frames": 30,
+        "start_hue": -180.0,
+        "end_hue": 180.0,
+        "start_brightness": 0,
+        "end_brightness": 0,
+        "start_contrast": 0,
+        "end_contrast": 0
+    },
+    "darktolight": {
+        "num_frames": 30,
+        "start_hue": 0,
+        "end_hue": 0,
+        "start_brightness": -20.0,
+        "end_brightness": 100.0,
+        "start_contrast": 0,
+        "end_contrast": 0
+    },
+    "contra": {
+        "num_frames": 30,
+        "start_hue": 0,
+        "end_hue": 0,
+        "start_brightness": 0,
+        "end_brightness": 0,
+        "start_contrast": 0.0,
+        "end_contrast": 100.0
+    },
+    "party": {
+        "num_frames": 180,
+        "start_hue": -180.0,
+        "end_hue": 180.0,
+        "start_brightness": 50.0,
+        "end_brightness": 54.0,
+        "start_contrast": 0.0,
+        "end_contrast": 50.0
+    }
+}
