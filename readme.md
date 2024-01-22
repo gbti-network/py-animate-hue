@@ -1,8 +1,6 @@
-# Dynamic Image Processor
+# Py Animate Hue
 
-## Project Overview
-
-This script allows the user to create an animation from a still image by shifting hue, brightness, and contrast in a simple programatic way. 
+This script allows the user to create an animation from a still image by shifting hue, brightness, and contrast in a simple programatic way.
 
 ## Project Structure
 - `animate.py`: The main script for processing images.
@@ -14,6 +12,10 @@ This script allows the user to create an animation from a still image by shiftin
 - `python-sample-b.png`
 - `python-sample-c.png`
 - `python-sample-d.png`
+
+_The following mp4 was generated with the "huegolong" preset which rotates hue 360 degrees over 920 frames:_
+
+[placeholder here]
 
 ## Requirements
 Ensure you have Python 3.x installed on your system. Dependencies are listed in `requirements.txt`, typically including:
@@ -39,20 +41,20 @@ python animate.py
 Once the script is running, it interacts with the user through the command line interface (CLI) to collect the following inputs:
 
 1. **Image Selection**:
-    - The script lists all images in the `inbox` folder.
-    - You will be prompted to enter the number corresponding to the image you wish to process.
+   - The script lists all images in the `inbox` folder.
+   - You will be prompted to enter the number corresponding to the image you wish to process.
 
 2. **Using Presets**:
-    - If presets are available (defined in `presets.json`), you can choose to apply one.
-    - The script will list available presets and ask if you wish to use one.
-    - Selecting a preset applies predefined settings for hue, brightness, contrast, and number of frames.
+   - If presets are available (defined in `presets.json`), you can choose to apply one.
+   - The script will list available presets and ask if you wish to use one.
+   - Selecting a preset applies predefined settings for hue, brightness, contrast, and number of frames.
 
 3. **Custom Settings**:
-    - If not using a preset, you can customize the following settings:
-        - **Hue**: Define the start and end hue values (range -180 to 180). This changes the color tone of the image.
-        - **Brightness**: Set the start and end brightness levels (range -100 to 100). This affects the lightness or darkness of the image.
-        - **Contrast**: Adjust the start and end contrast values (range -100 to 100). This alters the difference between dark and light areas of the image.
-        - **Number of Frames**: Determines the smoothness and length of the animation (higher number for smoother animation).
+   - If not using a preset, you can customize the following settings:
+      - **Hue**: Define the start and end hue values (range -180 to 180). This changes the color tone of the image.
+      - **Brightness**: Set the start and end brightness levels (range -100 to 100). This affects the lightness or darkness of the image.
+      - **Contrast**: Adjust the start and end contrast values (range -100 to 100). This alters the difference between dark and light areas of the image.
+      - **Number of Frames**: Determines the smoothness and length of the animation (higher number for smoother animation).
 
 ### Understanding the Settings
 - **Hue Shift**: Alters the color spectrum of the image, creating visually dynamic effects.
@@ -60,7 +62,7 @@ Once the script is running, it interacts with the user through the command line 
 - **Contrast Modification**: Enhances or reduces the sharpness and clarity of the image.
 - **Number of Frames**: Affects the duration and fluidity of the resulting animation. A higher number results in a longer and smoother animation but increases processing time.
 
-After these inputs, the script processes the selected image and saves the animated result in the `outbox` folder as both a GIF and an MP4 file.
+After these inputs, the script processes the selected image and saves the animated result in the `outbox` folder either as a **gif**, **mp4**, or both depending on user direction.
 
 ## Features
 - Adjust hue, brightness, and contrast of images.
@@ -73,7 +75,8 @@ After these inputs, the script processes the selected image and saves the animat
 - You can create custom presets or modify existing ones.
 
 ### Preset Examples:
-- `huego`: Cycle through the color spectrum.
+- `huego`: Cycle through the color spectrum in 30 frames (good for a gif)
+- `huegolong`: Same as huego but for 920 frames. (better for a mp4)
 - `darktolight`: Gradually increase brightness.
 - `contra`: Enhance contrast over time.
 - `party`: A combination of color and contrast changes for a party-like effect.
