@@ -82,6 +82,9 @@ After these inputs, the script processes the selected image and saves the animat
 - `party`: A combination of color and contrast changes for a party-like effect.
 
 ## Contributing
+
+Id you like our project please consider staring it and following our account for more novel applications like this one. 
+
 Contributions to this project are welcome. Please adhere to the following steps:
 1. Fork the repository.
 2. Make your changes.
