@@ -7,11 +7,7 @@ This script allows the user to create an animation from a still image by shiftin
 - `inbox/`: Folder containing sample images for processing.
 - `presets.json`: File containing predefined settings for image processing.
 
-## Sample Images
-- `python-sample-a.png`
-- `python-sample-b.png`
-- `python-sample-c.png`
-- `python-sample-d.png`
+## Demonstration
 
 _The following gif was generated with the "huego" preset which rotates hue 360 degrees over 30 frames:_
 
