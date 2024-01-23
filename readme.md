@@ -13,9 +13,14 @@ This script allows the user to create an animation from a still image by shiftin
 - `python-sample-c.png`
 - `python-sample-d.png`
 
+- _The following gif was generated with the "huego" preset which rotates hue 360 degrees over 30 frames:_
+
+[placeholder]
+
 _The following mp4 was generated with the "huegolong" preset which rotates hue 360 degrees over 920 frames:_
 
-[placeholder here]
+https://github.com/gbti-labs/py-animate-hue/assets/125175036/fbb76e1f-6794-4477-8ebe-90409866f718
+
 
 ## Requirements
 Ensure you have Python 3.x installed on your system. Dependencies are listed in `requirements.txt`, typically including:
